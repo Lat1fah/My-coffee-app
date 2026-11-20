@@ -47,7 +47,7 @@ def main(): #we're creating the menu and user input.
         order = Order()
 
         while True:
-            print("\n-----Coffee Menu-----")
+            print("\n☕-----Coffee Menu-----☕")
             for i, coffee in enumerate(menu, 1):
                 print(f"{i}. {coffee.name} - {coffee.price}")
                 print("5. View Order")
@@ -71,3 +71,5 @@ def main(): #we're creating the menu and user input.
 
 if __name__ == "__main__":
     main()
+
+    
